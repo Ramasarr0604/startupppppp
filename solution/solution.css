@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    /* padding: 20px 0; */
+ background-color:#484a4f  ;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.menu{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+}
+img{width: 20%;}
+.menu ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.menu li{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    list-style: none;
+    font-style: normal;
+  transition: all 500ms;
+    
+}
+button{width: 25%;
+    height: 46px;
+    color: black;
+    background-color: #ccc;
+    border-radius: 6%;}
+.menu a{
+    
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px 0;
+    color: white;
+
+}
+footer{
+    justify-content: space-between;
+   display: flex;
+   font-size: 20px;
+   height: 420px;
+   background-color: #484a4f;
+   color: white;
+   width: 100%;
+}
+h4{font-size: 30px;
+font-style: italic;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.pp{
+   font-size: 15px;
+}
+.cdao{
+   width: 36%;
+   left: 20%;
+   
+}
+
+.A{width: 28px;
+height: 30px;}
+.form-row
+{
+    background-color: gray;
+    width: 100%;
+    height: 450px;
+}
+.top
+{
+    text-align: center;
+    display: block;
+    color: #ccc;
+    font-size: 24px;
+    margin-top: 100px;
+
+}
+.title
+{
+    width: 100px;
+    margin-left: 20px;
+    height: 35px;
+    border: solid 1px white;
+}
+.row
+{
+    padding-top: 50px;
+    text-align: center;
+}
+.Ara
+{
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    
+    
+}
+.my-title
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2px;
+    margin-top: 130px;
+}
+.cover
+{
+    line-height: 2;
+    font-size: 28px;
+}
+.self
+{
+    margin-left: 100px;
+    color: gray;
+    font-size: 24px;
+}
+.front{
+    border: 0.5px solid gray;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 40px;
+}
+.love
+{
+    margin-left: 40px;
+    width: 450px;
+    height: 260px;
+    margin-top: 40px;
+}
+#conteneur
+{
+    display: flex;
+    
+}
+.till
+{
+    margin-left: 60px;
+    color: #484a4f;
+    margin-top: 90px;
+    
+}
+.rama
+{
+    width: 90%;
+    font-size: 17px;
+    line-height: 1.2;
+}
+.pip .pop
+{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 200%;
+    color: #484a4f;
+}
+#my-conteneur
+{
+display: flex;
+margin-top: 60px;
+margin-left: 90px;
+
+}
+#my-conteneur img{
+    width: 140px;
+    height: 110px;
+}
+.imgbx
+{
+    margin-left: 25px;
+}
+.items
+{
+    text-align: center;
+    display: block;
+    color: #484a4f;
+    font-size: 20px;
+    margin-top: 100px;
+
+}
+.h
+{
+    font-size: 15spx;
+    line-height: 2;
+}
+.btn
+{
+    margin-top: 50px;
+    background: #484a4f;
+    color: white;
+    border: none;
+    width: 110px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1499px)
+{
+    .Ara
+    {
+    
+    }
+}
